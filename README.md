@@ -141,4 +141,17 @@ Trigonometry is a branch of mathematics that studies relationships involving len
 
 ![Trigonometry](/assets/trigonometry.gif)
 
+## Graphs:
+
+In computer science, a graph is an abstract data type that is meant to implement the undirected graph and directed graph concepts from mathematics.
+
+A graph data structure consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph.
+
+A graph data structure may also associate to each edge some edge value, such as a symbolic label or a numeric attribute (cost, capacity, length, etc.).
+
+## Resource Management:
+
+Many games involve the management of resources. Examples of game resources include tokens, money, land, natural resources, human resources and game points. The game will have rules that determine how players can increase, spend, or exchange their various resources.
+
+A skillful management of resources under such rules allows players to influence the outcome of the game.
 
