@@ -2,6 +2,13 @@
 
 A list of definitions in order to keep info organized
 
+## Arrays:
+An array is a data structure that allows to store multiple values. Usually, these values share the same type (e.g. integer). Each element of an array is accessed by their index (arr[index] = value).
+
+The access time to an element by index is constant, regardless of the desired element. This is explained by the fact that the array elements are contiguous in memory. Thus, it is possible to calculate the memory address of the element to be accessed, from the base address of the array and the index of the element. Access is immediate, as it would be for a single variable.
+
+This advantage is also one of the limits of such a structure. An array is represented in memory in the form of contiguous cells, insert and delete operations element are impossible, unless you create a new array, larger or smaller (depending on the operation). It is then necessary to copy all elements of the original array into the new one, and then release the memory space allocated to the old array. So that's a lot of operations and require some languages ​​providing such opportunities to implement their own array, not in the traditional form (adjacent cells), but using a linked list, or a combination of both structures to improve performance.
+
 ## BFS:
 Breadth-first search (BFS) is an algorithm for traversing or searching tree or graph data structures. It starts at the tree root and explores the neighbor nodes first, before moving to the next level neighbors. Thus closer nodes get visited first.
 

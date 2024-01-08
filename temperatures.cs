@@ -32,9 +32,6 @@
 
 // 1
 
-
-
-
 using System;
 using System.Linq;
 using System.IO;
@@ -42,33 +39,20 @@ using System.Text;
 using System.Collections;
 using System.Collections.Generic;
 
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
-class Solution
+class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         int n = int.Parse(Console.ReadLine());
-        if (n == 0)
+        string[] inputs = Console.ReadLine().Split(' ');
+        int res = n > 0 ? 5526 : 0;
+
+        for (int i = 0; i < n; i++)
         {
-            Console.WriteLine(0);
-            return;
+            int t = int.Parse(inputs[i]);
+            res = (Math.Abs(t) == Math.Abs(res) && t > 0) ? t : (Math.Abs(t) < Math.Abs(res)) ? t : res;
         }
 
-        string[] temperatures = Console.ReadLine().Split();
-        int closestTemp = int.Parse(temperatures[0]);
-
-        for (int i = 1; i < n; i++)
-        {
-            int currentTemp = int.Parse(temperatures[i]);
-            if (Math.Abs(currentTemp) < Math.Abs(closestTemp) || (Math.Abs(currentTemp) == Math.Abs(closestTemp) && currentTemp > closestTemp))
-            {
-                closestTemp = currentTemp;
-            }
-        }
-
-        Console.WriteLine(closestTemp);
+        Console.WriteLine(res);
     }
 }

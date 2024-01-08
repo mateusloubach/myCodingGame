@@ -1,4 +1,4 @@
-// Death First Search - Episode 1
+// Death First Search - Episode 1 - solution in Javascript
 
 var [N, L, E] = readline().split(' ').map(Number);
 
