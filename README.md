@@ -4,7 +4,7 @@
 
 <div align="center">
   
-  ![GitHub top language](https://img.shields.io/github/languages/top/mateusloubach/myCodingGame?style=flat-square&logo=javascript&logoColor=f5f5f5&color=%23e4e3e3)
+  ![GitHub top language](https://img.shields.io/github/languages/top/mateusloubach/myCodingGame?style=flat-square&logoColor=f5f5f5&color=%23e4e3e3)
   ![GitHub last commit](https://img.shields.io/github/last-commit/mateusloubach/myCodingGame/main?style=flat-square)
   
   ![GitHub language count](https://img.shields.io/github/languages/count/mateusloubach/myCodingGame?style=flat-square&color=%23e4e3e3)
