@@ -1,5 +1,19 @@
 # myCodingGame
 
+![banner](/assets/codingame_banner.png)
+
+<div align="center">
+  
+  ![GitHub top language](https://img.shields.io/github/languages/top/mateusloubach/myCodingGame?style=flat-square&logo=javascript&logoColor=f5f5f5&color=%23e4e3e3)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/mateusloubach/myCodingGame/main?style=flat-square)
+  
+  ![GitHub language count](https://img.shields.io/github/languages/count/mateusloubach/myCodingGame?style=flat-square&color=%23e4e3e3)
+  ![GitHub Code Size](https://img.shields.io/github/languages/code-size/mateusloubach/myCodingGame?style=flat-square&color=%23e4e3e3)
+
+
+</div>
+
+
 A list of definitions in order to keep info organized
 
 ## Arrays:
@@ -81,6 +95,11 @@ A graph data structure consists of a finite (and possibly mutable) set of vertic
 
 A graph data structure may also associate to each edge some edge value, such as a symbolic label or a numeric attribute (cost, capacity, length, etc.).
 
+## Hash Tables:
+In computing, a hash table (hash map) is a data structure used to implement an associative array, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
+
+In many situations, hash tables turn out to be more efficient than search trees or any other table lookup structure. For this reason, they are widely used in many kinds of computer software, particularly for associative arrays, database indexing, caches, and sets.
+
 ## Lists:
 
 In computer science, a list or sequence is an abstract data type that represents an ordered sequence of values, where the same value may occur more than once.
@@ -142,6 +161,12 @@ Like other machine learning methods – systems that learn from data – neural 
 In computer science, program optimization or software optimization is the process of modifying a software system to make some aspect of it work more efficiently or use fewer resources.
 
 On CodinGame, optimization games are games in which you have to maximize the criterion (fuel, output size, score) to climb in the rankings.
+
+## Strings:
+A string is a data type used in programming, such as an integer and floating point unit, but is used to represent text rather than numbers. It is comprised of a set of characters that can also contain spaces and numbers.
+
+For example, the word "puzzle" and the phrase "I love CodinGame" are both strings. Even "12345" could be considered a string, if specified correctly. Typically, programmers must enclose strings in quotation marks for the data to recognized as a string and not a number or variable name.
+
 
 ## Trigonometry:
 
