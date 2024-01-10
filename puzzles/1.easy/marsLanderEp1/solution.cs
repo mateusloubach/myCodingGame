@@ -1,58 +1,39 @@
-using System;
-
-class Program
+namespace CodinGame.Puzzles.Easy.MarsLander
 {
-    static void Main()
+    using System;
+
+    class Player
     {
-        int surfaceN; // the number of points used to draw the surface of Mars.
-        surfaceN = int.Parse(Console.ReadLine());
-        for (int i = 0; i < surfaceN; i++)
+        static void Main(string[] args)
         {
-            int landX; // X coordinate of a surface point. (0 to 6999)
-            int landY; // Y coordinate of a surface point. By linking all the points together in a sequential fashion, you form the surface of Mars.
-            string[] landCoordinates = Console.ReadLine().Split();
-            landX = int.Parse(landCoordinates[0]);
-            landY = int.Parse(landCoordinates[1]);
-        }
+            string[] inputs;
+            int surfaceN = int.Parse(Console.ReadLine()); // the number of points used to draw the surface of Mars.
+            for (int i = 0; i < surfaceN; i++)
+            {
+                inputs = Console.ReadLine().Split(' ');
+                int landX = int.Parse(inputs[0]); // X coordinate of a surface point. (0 to 6999)
+                int landY = int.Parse(inputs[1]); // Y coordinate of a surface point. By linking all the points together in a sequential fashion, you form the surface of Mars.
+            }
 
-        while (true)
-        {
-            int X;
-            int Y;
-            int hSpeed; // the horizontal speed (in m/s), can be negative.
-            int vSpeed; // the vertical speed (in m/s), can be negative.
-            int fuel; // the quantity of remaining fuel in liters.
-            int rotate; // the rotation angle in degrees (-90 to 90).
-            int power; // the thrust power (0 to 4).
+            // game loop
+            while (true)
+            {
+                inputs = Console.ReadLine().Split(' ');
+                int X = int.Parse(inputs[0]);
+                int Y = int.Parse(inputs[1]);
+                int hSpeed = int.Parse(inputs[2]); // the horizontal speed (in m/s), can be negative.
+                int vSpeed = int.Parse(inputs[3]); // the vertical speed (in m/s), can be negative.
+                int fuel = int.Parse(inputs[4]); // the quantity of remaining fuel in liters.
+                int rotate = int.Parse(inputs[5]); // the rotation angle in degrees (-90 to 90).
+                int power = int.Parse(inputs[6]); // the thrust power (0 to 4).
 
-            string[] spaceshipData = Console.ReadLine().Split();
-            X = int.Parse(spaceshipData[0]);
-            Y = int.Parse(spaceshipData[1]);
-            hSpeed = int.Parse(spaceshipData[2]);
-            vSpeed = int.Parse(spaceshipData[3]);
-            fuel = int.Parse(spaceshipData[4]);
-            rotate = int.Parse(spaceshipData[5]);
-            power = int.Parse(spaceshipData[6]);
+                if (vSpeed <= -40)
+                    power = 4;
+                else
+                    power = 0;
 
-            if (Y < 1650)
-            {
-                Console.WriteLine("0 4");
-            }
-            else if (Y < 2200)
-            {
-                Console.WriteLine("0 3");
-            }
-            else if (Y < 2300)
-            {
-                Console.WriteLine("0 2");
-            }
-            else if (Y < 2450)
-            {
-                Console.WriteLine("0 1");
-            }
-            else
-            {
-                Console.WriteLine("0 0");
+                // 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4).
+                Console.WriteLine("0 " + power);
             }
         }
     }

@@ -104,7 +104,7 @@ Flood fill, also called seed fill, is an algorithm that determines the area conn
 
 </div>
 
-**FloodFill with 4 directions** 
+**FloodFill with 8 directions** 
 
 <div align="center">
 
@@ -197,6 +197,12 @@ Like other machine learning methods – systems that learn from data – neural 
 In computer science, program optimization or software optimization is the process of modifying a software system to make some aspect of it work more efficiently or use fewer resources.
 
 On CodinGame, optimization games are games in which you have to maximize the criterion (fuel, output size, score) to climb in the rankings.
+
+## Simulation:
+
+A computer simulation is a simulation, run on a single computer, or a network of computers, to reproduce behavior of a system.
+
+On CodinGame, this kind of puzzle often needs a rewrite of the game engine, so your code will be able to anticipate the game state several turns in advance and take the best decision.
 
 ## Strings:
 
