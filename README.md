@@ -84,17 +84,33 @@ The process of encoding converts information from a source into symbols for comm
 
 A Caesar cipher, also known as Caesar's code, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a X-shifted letter in the alphabet.
 
-** Cipher with a shift of X=3** 
+**Cipher with a shift of X=3** 
 
-![Encoding Image](/assets/encoding.png)
+<div align="center">
+
+  ![Encoding Image](/assets/encoding.png)
+
+</div>
+
 
 ## Flood Fill:
 Flood fill, also called seed fill, is an algorithm that determines the area connected to a given node in a multi-dimensional array. It is used in the "bucket" fill tool of paint programs to fill connected, similarly-colored areas with a different color, and in games such as Go and Minesweeper for determining which pieces are cleared.
 
+
 **FloodFill with 4 directions** 
-![FloodFill4](/assets/Recursive_Flood_Fill_4.gif)
+<div align="center">
+
+  ![FloodFill4](/assets/Recursive_Flood_Fill_4.gif)
+
+</div>
+
 **FloodFill with 4 directions** 
-![FloodFill8](/assets/Recursive_Flood_Fill_8.gif)
+
+<div align="center">
+
+  ![FloodFill8](/assets/Recursive_Flood_Fill_8.gif)
+
+</div>
 
 ## Graph:
 
@@ -170,7 +186,11 @@ Like other machine learning methods – systems that learn from data – neural 
 
 **NN Representation** 
 
-![NeuralNetworkImage](/assets/neural_network.png)
+<div align="center">
+
+  ![NeuralNetworkImage](/assets/neural_network.png)
+
+</div>
 
 ## Optimization:
 
@@ -188,7 +208,11 @@ For example, the word "puzzle" and the phrase "I love CodinGame" are both string
 
 Trigonometry is a branch of mathematics that studies relationships involving lengths and angles of triangles and trigonometric functions such as sine, cosine and tangent.
 
-![Trigonometry](/assets/trigonometry.gif)
+<div align="center">
+
+  ![Trigonometry](/assets/trigonometry.gif)
+
+</div>
 
 ## Resource Management:
 
