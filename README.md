@@ -22,8 +22,12 @@ This advantage is also one of the limits of such a structure. An array is repres
 
 ## BFS:
 Breadth-first search (BFS) is an algorithm for traversing or searching tree or graph data structures. It starts at the tree root and explores the neighbor nodes first, before moving to the next level neighbors. Thus closer nodes get visited first.
+<div align="center">
 
-![BFS gif](/assets/bfs.gif)
+  ![BFS gif](/assets/bfs.gif)
+
+</div>
+
 
 Pseudo-code:
 ```
@@ -84,6 +88,14 @@ A Caesar cipher, also known as Caesar's code, is one of the simplest and most wi
 
 ![Encoding Image](/assets/encoding.png)
 
+## Flood Fill:
+Flood fill, also called seed fill, is an algorithm that determines the area connected to a given node in a multi-dimensional array. It is used in the "bucket" fill tool of paint programs to fill connected, similarly-colored areas with a different color, and in games such as Go and Minesweeper for determining which pieces are cleared.
+
+**FloodFill with 4 directions** 
+![FloodFill4](/assets/Recursive_Flood_Fill_4.gif)
+**FloodFill with 4 directions** 
+![FloodFill8](/assets/Recursive_Flood_Fill_8.gif)
+
 ## Graph:
 
 In computer science, a graph is an abstract data type that is meant to implement the undirected graph and directed graph concepts from mathematics.
@@ -128,6 +140,13 @@ LOOP
 Machine learning is the subfield of computer science that "gives computers the ability to learn without being explicitly programmed" (Arthur Samuel, 1959). Evolved from the study of pattern recognition and computational learning theory in artificial intelligence, machine learning explores the study and construction of algorithms that can learn from and make predictions on data – such algorithms overcome following strictly static program instructions by making data-driven predictions or decisions, through building a model from sample inputs. Machine learning is employed in a range of computing tasks where designing and programming explicit algorithms is unfeasible; example applications include spam filtering, optical character recognition (OCR), search engines and computer vision.
 
 Machine learning is closely related to (and often overlaps with) computational statistics, which also focuses in prediction-making through the use of computers. It has strong ties to mathematical optimization, which delivers methods, theory and application domains to the field. Machine learning is sometimes conflated with data mining, where the latter subfield focuses more on exploratory data analysis and is known as unsupervised learning.
+
+## Minimax:
+Minimax (sometimes MinMax or MM) is a decision rule used in decision theory, game theory, statistics and philosophy for minimizing the possible loss for a worst case (maximum loss) scenario. Originally formulated for two-player zero-sum game theory, covering both the cases where players take alternate moves and those where they make simultaneous moves, it has also been extended to more complex games and to general decision-making in the presence of uncertainty.
+
+The algorithm reviews all possibilities for a limited number of step and assign a value that takes into account the benefits for the player and for his opponent. Then the best choice is the one that minimizes the loss of any player assuming the adversary seeks instead to maximize (the game is zero-sum).
+
+There are various algorithms based on MinMax to optimize the search for the best shot by limiting the number of nodes visited in the game tree, the best known is pruning alpha-beta. In practice, the tree is often too large to be fully explored (like chess or go). Only a fraction of the tree is explored.
 
 ## Multi-Agent System
 
