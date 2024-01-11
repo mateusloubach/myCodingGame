@@ -12,37 +12,36 @@
   A list of definitions in order to keep info organized
 </div>
 
-# Practice
-## Puzzles
-### Classic Puzzle - Easy
+
+# Classic Puzzle - Easy
 
 <div align="center">
 
-|  Nº  | Puzzle | Done | Difficulty | Languages |
-|------|--------|-------|------------|-----------|
-|  01  | [ASCII Art](https://www.codingame.com/training/easy/ascii-art) | :heavy_check_mark: | Easy | [.Cs](/puzzles/I.easy/ASCII%20Art/solution.cs), [.Py](/puzzles/I.easy/ASCII%20Art/solution.py) |
-|  02  | [Balanced Ternary Computer: Encode](https://www.codingame.com/training/easy/balanced-ternary-computer-encode) | :heavy_check_mark: | Easy | [.Cs](/puzzles/I.easy/balancedTernaryComputer-Encode/solution.cs) |
-|  03  | [Brackets Extreme Edition](https://www.codingame.com/training/easy/brackets-extreme-edition) | :heavy_check_mark: | Easy | [.Cs](/puzzles/I.easy/bracketsExtremeEdition/solution.cs) |
-|  04  | [Defibrillators](https://www.codingame.com/training/easy/defibrillators) | :heavy_check_mark: | Easy | [.Cs](/puzzles/I.easy/defibrillators/solution.cs) |
-|  05  | [Jack Silver: The Casino](https://www.codingame.com/training/easy/jack-silver-the-casino) | :heavy_check_mark: | Easy | [.Cs](/puzzles/I.easy/jackSilverTheCasino/solution.cs), [.Js](/puzzles/I.easy/jackSilverTheCasino/solution.js) |
-|  05  | [Mars Lander - Ep.1](https://www.codingame.com/training/easy/mars-lander-episode-1) | :heavy_check_mark: | Easy | [.Cs](/puzzles/I.easy/marsLanderEp1/solution.cs), [.Go](/puzzles/I.easy/marsLanderEp1/solution.go) |
-|  05  | [Power of Thor - Ep.1](https://www.codingame.com/training/easy/power-of-thor-episode-1) | :heavy_check_mark: | Easy | [.Cs](/puzzles/I.easy/powerOfThor-Ep1/solution.cs), [.Go](/puzzles/I.easy/powerOfThor-Ep1/solution.go), [.Lua](/puzzles/I.easy/powerOfThor-Ep1/solution.lua), [.Py](/puzzles/I.easy/powerOfThor-Ep1/solution.py) |
-|  05  | [Rectangle Partition](https://www.codingame.com/training/easy/rectangle-partition) | :heavy_check_mark: | Easy | [.Js](/puzzles/I.easy/rectanglePartition/solution.js) |
-|  05  | [Snail Run](https://www.codingame.com/training/easy/snail-run) | :heavy_check_mark: | Easy | [.Js](/puzzles/I.easy/snailRun/solution.js) |
-|  05  | [Temperatures](https://www.codingame.com/training/easy/temperatures) | :heavy_check_mark: | Easy | [.Cs](/puzzles/I.easy/temperatures/solution.cs) |
-|  05  | [The Descent](https://www.codingame.com/training/easy/the-descent) | :heavy_check_mark: | Easy | [.Py](/puzzles/I.easy/theDescent/solution.py) |
-|  06  | [The River I](https://www.codingame.com/training/easy/the-river-i-) | :heavy_check_mark: | Easy | [.Cs](/puzzles/1.easy/theRiverI/solution.cs), [.Js](/puzzles/1.easy/theRiverI/solution.js) |
-|  06  | [The River II](https://www.codingame.com/training/easy/the-river-ii-) | :heavy_check_mark: | Easy | [.Cs](/puzzles/1.easy/theRiverII/solution.cs), [.Js](/puzzles/1.easy/theRiverII/solution.js) |
-|  05  | [puzzleName](puzzleLink) | :x: | Hard | C# |
-|  05  | [puzzleName](puzzleLink) | :x: | Hard | C# |
+|  Nº  | Puzzle | Done | Languages |
+|------|--------|------|-----------|
+|    | [ASCII Art](https://www.codingame.com/training/easy/ascii-art) | :heavy_check_mark: | [.Cs](/puzzles/I.easy/ASCII%20Art/solution.cs), [.Py](/puzzles/I.easy/ASCII%20Art/solution.py) |
+|    | [Balanced Ternary Computer: Encode](https://www.codingame.com/training/easy/balanced-ternary-computer-encode) | :heavy_check_mark: | [.Cs](/puzzles/I.easy/balancedTernaryComputer-Encode/solution.cs) |
+|    | [Brackets Extreme Edition](https://www.codingame.com/training/easy/brackets-extreme-edition) | :heavy_check_mark: | [.Cs](/puzzles/I.easy/bracketsExtremeEdition/solution.cs) |
+|    | [Defibrillators](https://www.codingame.com/training/easy/defibrillators) | :heavy_check_mark: | [.Cs](/puzzles/I.easy/defibrillators/solution.cs) |
+|    | [Jack Silver: The Casino](https://www.codingame.com/training/easy/jack-silver-the-casino) | :heavy_check_mark: | [.Cs](/puzzles/I.easy/jackSilverTheCasino/solution.cs), [.Js](/puzzles/I.easy/jackSilverTheCasino/solution.js) |
+|    | [Mars Lander - Ep.1](https://www.codingame.com/training/easy/mars-lander-episode-1) | :heavy_check_mark: | [.Cs](/puzzles/I.easy/marsLanderEp1/solution.cs), [.Go](/puzzles/I.easy/marsLanderEp1/solution.go) |
+|    | [Power of Thor - Ep.1](https://www.codingame.com/training/easy/power-of-thor-episode-1) | :heavy_check_mark: | [.Cs](/puzzles/I.easy/powerOfThor-Ep1/solution.cs), [.Go](/puzzles/I.easy/powerOfThor-Ep1/solution.go), [.Lua](/puzzles/I.easy/powerOfThor-Ep1/solution.lua), [.Py](/puzzles/I.easy/powerOfThor-Ep1/solution.py) |
+|    | [Rectangle Partition](https://www.codingame.com/training/easy/rectangle-partition) | :heavy_check_mark: | [.Js](/puzzles/I.easy/rectanglePartition/solution.js) |
+|    | [Snail Run](https://www.codingame.com/training/easy/snail-run) | :heavy_check_mark: | [.Js](/puzzles/I.easy/snailRun/solution.js) |
+|    | [Temperatures](https://www.codingame.com/training/easy/temperatures) | :heavy_check_mark: | [.Cs](/puzzles/I.easy/temperatures/solution.cs) |
+|    | [The Descent](https://www.codingame.com/training/easy/the-descent) | :heavy_check_mark: | [.Py](/puzzles/I.easy/theDescent/solution.py) |
+|    | [The River I](https://www.codingame.com/training/easy/the-river-i-) | :heavy_check_mark: | [.Cs](/puzzles/1.easy/theRiverI/solution.cs), [.Js](/puzzles/1.easy/theRiverI/solution.js) |
+|    | [The River II](https://www.codingame.com/training/easy/the-river-ii-) | :heavy_check_mark: | [.Cs](/puzzles/1.easy/theRiverII/solution.cs), [.Js](/puzzles/1.easy/theRiverII/solution.js) |
+|    | [puzzleName](puzzleLink) | :x: | C# |
+|    | [puzzleName](puzzleLink) | :x: | C# |
 
 
-### Classic Puzzle - Medium
+# Classic Puzzle - Medium
 
-|  Nº  | Puzzle | Done | Difficulty | Languages |
-|------|--------|-------|------------|-----------|
-|  05  | [puzzleName](puzzleLink) | :x: | Hard | C# |
-|  05  | [puzzleName](puzzleLink) | :x: | Hard | C# |
+|  Nº  | Puzzle | Done | Languages |
+|------|--------|------|-----------|
+|  05  | [puzzleName](puzzleLink) | :x: | C# |
+|  05  | [puzzleName](puzzleLink) | :x: | C# |
 
 
 </div>
