@@ -9,9 +9,28 @@
   ![GitHub language count](https://img.shields.io/github/languages/count/mateusloubach/myCodingGame?style=flat-square&color=%23e4e3e3)
   ![GitHub Code Size](https://img.shields.io/github/languages/code-size/mateusloubach/myCodingGame?style=flat-square&color=%23e4e3e3)
 
+  A list of definitions in order to keep info organized
 </div>
 
-A list of definitions in order to keep info organized
+# Practice
+## Puzzles
+### Classic Puzzle - Easy
+
+<div align="center">
+
+|  Nº  | Puzzle | Done | Difficulty | Languages |
+|------|--------|-------|------------|-----------|
+|  01  | [puzzleName](puzzleLink) | :x: | Medium | Python |
+|  02  | [puzzleName](puzzleLink) | :heavy_check_mark: | Easy | Javascript |
+|  03  | [puzzleName](puzzleLink) | :x: | Medium | Python |
+|  04  | [puzzleName](puzzleLink) | :x: | Very Hard | C# |
+|  05  | [puzzleName](puzzleLink) | :x: | Hard | C# |
+|  06  | [The River I](https://www.codingame.com/training/easy/the-river-i-) | :heavy_check_mark: | Easy | [C#](/puzzles/1.easy/theRiverI/solution.cs), [JS](/puzzles/1.easy/theRiverI/solution.js) |
+|  06  | [The River II](https://www.codingame.com/training/easy/the-river-ii-) | :heavy_check_mark: | Easy | [C#](/puzzles/1.easy/theRiverII/solution.cs), [JS](/puzzles/1.easy/theRiverII/solution.js) |
+
+
+</div>
+
 
 ## Arrays:
 An array is a data structure that allows to store multiple values. Usually, these values share the same type (e.g. integer). Each element of an array is accessed by their index (arr[index] = value).
@@ -96,7 +115,6 @@ A Caesar cipher, also known as Caesar's code, is one of the simplest and most wi
 ## Flood Fill:
 Flood fill, also called seed fill, is an algorithm that determines the area connected to a given node in a multi-dimensional array. It is used in the "bucket" fill tool of paint programs to fill connected, similarly-colored areas with a different color, and in games such as Go and Minesweeper for determining which pieces are cleared.
 
-
 **FloodFill with 4 directions** 
 <div align="center">
 
@@ -119,6 +137,14 @@ In computer science, a graph is an abstract data type that is meant to implement
 A graph data structure consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph.
 
 A graph data structure may also associate to each edge some edge value, such as a symbolic label or a numeric attribute (cost, capacity, length, etc.).
+
+
+## Greedy algorithms:
+
+A greedy algorithm is an algorithmic paradigm that follows the problem solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum. In many problems, a greedy strategy does not in general produce an optimal solution, but nonetheless a greedy heuristic may yield locally optimal solutions that approximate a global optimal solution in a reasonable time.
+
+![GreedyAlgorithms](/assets/greedyalgorithms.gif)
+
 
 ## Hash Tables:
 In computing, a hash table (hash map) is a data structure used to implement an associative array, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
@@ -151,7 +177,7 @@ WHILE (boolean condition) THEN
 LOOP
 ```
 
-# Machine Learning:
+## Machine Learning:
 
 Machine learning is the subfield of computer science that "gives computers the ability to learn without being explicitly programmed" (Arthur Samuel, 1959). Evolved from the study of pattern recognition and computational learning theory in artificial intelligence, machine learning explores the study and construction of algorithms that can learn from and make predictions on data – such algorithms overcome following strictly static program instructions by making data-driven predictions or decisions, through building a model from sample inputs. Machine learning is employed in a range of computing tasks where designing and programming explicit algorithms is unfeasible; example applications include spam filtering, optical character recognition (OCR), search engines and computer vision.
 
@@ -164,7 +190,7 @@ The algorithm reviews all possibilities for a limited number of step and assign 
 
 There are various algorithms based on MinMax to optimize the search for the best shot by limiting the number of nodes visited in the game tree, the best known is pruning alpha-beta. In practice, the tree is often too large to be fully explored (like chess or go). Only a fraction of the tree is explored.
 
-## Multi-Agent System
+## Multi-Agent System:
 
 A multi-agent system (M.A.S.) is a computerized system composed of multiple interacting intelligent agents within an environment. Multi-agent systems can be used to solve problems that are difficult or impossible for an individual agent or a monolithic system to solve. Intelligence may include some methodic, functional, procedural approach, algorithmic search or reinforcement learning.
 
@@ -197,6 +223,12 @@ Like other machine learning methods – systems that learn from data – neural 
 In computer science, program optimization or software optimization is the process of modifying a software system to make some aspect of it work more efficiently or use fewer resources.
 
 On CodinGame, optimization games are games in which you have to maximize the criterion (fuel, output size, score) to climb in the rankings.
+
+## Resource Management:
+
+Many games involve the management of resources. Examples of game resources include tokens, money, land, natural resources, human resources and game points. The game will have rules that determine how players can increase, spend, or exchange their various resources.
+
+A skillful management of resources under such rules allows players to influence the outcome of the game.
 
 ## Simulation:
 
