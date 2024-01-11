@@ -35,8 +35,23 @@
 |    | [puzzleName](puzzleLink) | :x: | C# |
 |    | [puzzleName](puzzleLink) | :x: | C# |
 
+</div>
 
 # Classic Puzzle - Medium
+
+<div align="center">
+
+|  Nº  | Puzzle | Done | Languages |
+|------|--------|------|-----------|
+|  05  | [puzzleName](puzzleLink) | :x: | C# |
+|  05  | [puzzleName](puzzleLink) | :x: | C# |
+
+
+</div>
+
+# Classic Puzzle - Hard
+
+<div align="center">
 
 |  Nº  | Puzzle | Done | Languages |
 |------|--------|------|-----------|
