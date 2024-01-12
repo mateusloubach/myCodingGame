@@ -2,7 +2,8 @@
 ![banner](/assets/codingame_banner.png)
 
 <div align="center">
-  
+
+  ![Github Language Count](https://img.shields.io/github/languages/count/denvash/codingame-puzzles-solutions.svg)
   ![GitHub top language](https://img.shields.io/github/languages/top/mateusloubach/myCodingGame?style=flat-square&logoColor=f5f5f5&color=%23e4e3e3)
   ![GitHub last commit](https://img.shields.io/github/last-commit/mateusloubach/myCodingGame/main?style=flat-square)
   
