@@ -34,6 +34,8 @@
 |    | [The River II](https://www.codingame.com/training/easy/the-river-ii-) | :heavy_check_mark: | [.Cs](/puzzles/1.easy/theRiverII/solution.cs), [.Js](/puzzles/1.easy/theRiverII/solution.js) |
 |    | [puzzleName](puzzleLink) | :x: | C# |
 |    | [puzzleName](puzzleLink) | :x: | C# |
+|    | [puzzleName](puzzleLink) | :x: | C# |
+|    | [puzzleName](puzzleLink) | :x: | C# |
 
 </div>
 
