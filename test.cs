@@ -5,10 +5,6 @@ using System.Text;
 using System.Collections;
 using System.Collections.Generic;
 
-/**
- * This code was developped in 1.5 days, it won't be the cleanest you ever seen.
- **/
-
 enum Action
 {
     BUILD_TOWER,
