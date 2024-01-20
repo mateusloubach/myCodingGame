@@ -289,3 +289,8 @@ Trigonometry is a branch of mathematics that studies relationships involving len
 Many games involve the management of resources. Examples of game resources include tokens, money, land, natural resources, human resources and game points. The game will have rules that determine how players can increase, spend, or exchange their various resources.
 
 A skillful management of resources under such rules allows players to influence the outcome of the game.
+
+
+## Next
+
+This is where we add more content
